@@ -1,10 +1,13 @@
-<h1>Brancherstellung</h1>
+<h1>Branch</h1>
 
-git switch -c [beschreibender name] -> Kombination aus git branch [name] und git switch [name]
-git branch [name] -> Erstellung eines neuen Branches
-git switch [name] -> Switch zu neuem Branch
+git branch. -> Liste lokaler Branches
+git branch -a -> Liste aller Brnaches inkl. versteckter Dateien (wie ls -a)
+-> rot angezeigte Branches: befinden sich upstream bei GitHub, nicht lokal
 
-git branch -> Liste lokaler Branches
+<h2>Brancherstellung</h2>
+git switch -c [name] -> Kombination aus git branch [name] und git switch [name]
+git branch [name]    -> Erstellung eines neuen Branches
+git switch [name]    -> Switch zu neuem Branch
 
 <h2>GitHub</h2>
 wenn bspw. bei GitHub main und branch gemerged wurden, dort den Branch löschen
