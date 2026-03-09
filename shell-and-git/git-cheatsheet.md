@@ -16,8 +16,17 @@
 
 ### GitHub
 
-wenn bspw. bei GitHub main und branch gemerged wurden, dort den Branch löschen, weil...
+wenn bspw. bei GitHub direkt main und branch gemerged wurden:
 
-- wir arbeiten nie auf alten Versionen / Branches
-- kein Branchfriedhof: auch veraltete lokale Branches löschen
-- stay up to date: Merge anschließend über Terminal pullen
+- direkt über den Button löschen, weil...
+
+1. wir arbeiten nie auf alten Versionen / Branches
+2. kein Branchfriedhof: auch veraltete lokale Branches löschen
+3. stay up to date: Merge anschließend über Terminal pullen
+
+danach lokal:
+
+1. alten Branch löschen
+2. alten Branch aufrufen
+3. git branch -d [name]
+4. git pull zum updaten mit GitHub
